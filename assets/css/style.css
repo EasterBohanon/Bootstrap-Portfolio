@@ -5,30 +5,64 @@ body {
 }
 
 /* General */
+html {
+    position: relative;
+
+    min-height: 100%;
+}
+
+main {
+    margin: 80px 0;
+}
 
 
 
+/* style */
+
+.block {
+    background-color:  white;
+    padding: 30px;
+    margin-bottom: 30px;
+
+}
+
+.block-header {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
 /* Nav Bar*/
+
+#logo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background: #439ee0;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #4aaaa5
+}
 
 .navbar {
     background: white;
     border: none;
 
 }
+
+/*media query for color change*/
+
+
 /* About me page */
 
-
-
-.block {
-    background:  white;
-    padding: 30px;
-    margin-bottom: 30px;
-
-}
-.block-header {
-    color: #4aaaa5;
+.about-me-header {
+    margin-bottom: 33px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
     font-weight: bold;
+    color: #4aaaa5;
+
 }
 
 .auth-image {
@@ -37,6 +71,7 @@ body {
     margin: 0 20px 10px 0;
 
 }
+
 
 
 /* footer */
@@ -50,14 +85,44 @@ body {
 
 }
 
+.text-muted-footer {
+    margin-top: 15px;
+    color: white;
+
+}
+
 .two-toned-footer-color {
     height: 6px;
     padding-top: 3px;
     background-color: #439ee0;
 }
 
-.text-muted-footer {
-    margin-top: 15px;
+/* Portfolio */
+.port-image {
+    margin: 20px auto;
 }
 
+/* Contact page */
 
+.form-control {
+    border-radius: 0;
+    min-width: 100%;
+    max-width: 100%;
+
+}
+
+.submit-btn {
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: lighter;
+   
+    color: white;
+    background-color: #439ee0;
+    border: 0; 
+
+}
+.submit-btn:hover {
+    opacity: .55;
+}
+
+/* I still have to fix the footer, */
