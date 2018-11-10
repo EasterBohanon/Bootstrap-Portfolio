@@ -37,8 +37,8 @@ main {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 24px;
     font-weight: bold;
-    color: white;
-    background: #439ee0;
+    color: #439ee0;
+    background: white;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
@@ -82,6 +82,7 @@ main {
     width: 100%;
     height: 60px;
     background-color: #4aaaa5;
+ 
 
 }
 
@@ -100,6 +101,35 @@ main {
 /* Portfolio */
 .port-image {
     margin: 20px auto;
+}
+h2 {
+    position: absolute;
+     bottom: 20px;
+     width: 100%;
+     padding: 15px;
+     margin-bottom: 0;
+     font-size: 20px;
+     font-weight: 300;
+     line-height: 30px;
+     color: #ffffff;
+     text-align: center;
+     background: #177965;
+     border-bottom: 0;
+}
+
+h3 {
+    position: absolute;
+     bottom: 20px;
+     width: 100%;
+     padding: 15px;
+     margin-bottom: 0;
+     font-size: 20px;
+     font-weight: 300;
+     line-height: 30px;
+     color: #ffffff;
+     text-align: center;
+     background: #177965;
+     border-bottom: 0;
 }
 
 /* Contact page */
